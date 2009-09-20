@@ -14,9 +14,6 @@ CREATE TABLE [UnitOfMeasure] ([UnID] INTEGER  NOT NULL PRIMARY KEY,[UnName] VA
 INSERT INTO "UnitOfMeasure" VALUES(0,'kWh');
 INSERT INTO "UnitOfMeasure" VALUES(1,'kW');
 CREATE TABLE [Meter] ([MeID] INTEGER  PRIMARY KEY NOT NULL,[MeMtID] INTEGER  NOT NULL,[MeName] VARCHAR(32)  NULL,[MeDescription] VARCHAR(256)  NULL,[MeNewDate] DATE  NULL,[MeRaID] INTEGER  NULL,[MeCalibratedVREF] INTEGER DEFAULT '498' NOT NULL,[MeCalibratedInd] BOOLEAN DEFAULT '0' NOT NULL);
-INSERT INTO "Meter" VALUES(1,0,'Shredder','Downstairs bedroom, outlet with shredder plugged in.',NULL,NULL,495,1);
-INSERT INTO "Meter" VALUES(2,0,'meter 2','No description.',NULL,NULL,'498','0');
-INSERT INTO "Meter" VALUES(3,0,'Computer Equipment','Computer, LCD, Router, printer, etc.',NULL,NULL,502,1);
 CREATE TABLE [Reading] ([JaMeID] INTEGER  NOT NULL,[JaInID] INTEGER  NOT NULL,[JaDatestamp] VARCHAR(20)  NOT NULL,[JaUnID] INTEGER  NOT NULL,[JaRead] FLOAT DEFAULT '0.0' NOT NULL,PRIMARY KEY ([JaMeID],[JaInID],[JaDatestamp],[JaUnID]));
 CREATE TABLE [SelectChart] ([ScID] INTEGER DEFAULT '(0)' PRIMARY KEY NOT NULL,[ScName] VARCHAR(32)  NOT NULL,[ScSortOrder] INTEGER  NOT NULL);
 INSERT INTO "SelectChart" VALUES(0,'Daily Energy',0);
