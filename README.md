@@ -1,4 +1,4 @@
-A Windows .NET application that acquires, stores, and presents power and energy consumption data for individual devices in your home.
+Imported from google code. A Windows .NET application that acquires, stores, and presents power and energy consumption data for individual devices in your home.
 
 This is a C# project. It will build using Visual Studio 2008 with .NET Framework 3.5. It uses a port of Python code, xbee.py XbeePy, to extract the Zigbee data. It uses ZedGraph for near real-time and historical charts, and a Scheduler for scheduling the sampling of the power data for live charting. The database used is SQLite.
 
