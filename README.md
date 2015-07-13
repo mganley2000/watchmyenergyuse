@@ -2,7 +2,7 @@ Imported from google code. A Windows .NET application that acquires, stores, and
 
 This is a C# project. It will build using Visual Studio 2008 with .NET Framework 3.5. It uses a port of Python code, xbee.py XbeePy, to extract the Zigbee data. It uses ZedGraph for near real-time and historical charts, and a Scheduler for scheduling the sampling of the power data for live charting. The database used is SQLite.
 
-You must build one or more power monitoring devices that you plug-in to your wall outlets. This page illustrates exactly what to do: http://www.ladyada.net/make/tweetawatt/
+You must build one or more power monitoring devices that you plug-in to your wall outlets. This page illustrates exactly what to do: https://learn.adafruit.com/tweet-a-watt/
 
 Summarized, build the receiver: http://www.ladyada.net/make/tweetawatt/receiver.html
 
