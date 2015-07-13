@@ -4,11 +4,11 @@ This is a C# project. It will build using Visual Studio 2008 with .NET Framework
 
 You must build one or more power monitoring devices that you plug-in to your wall outlets. This page illustrates exactly what to do: https://learn.adafruit.com/tweet-a-watt/
 
-Summarized, build the receiver: http://www.ladyada.net/make/tweetawatt/receiver.html
+Summarized, build the receiver: https://learn.adafruit.com/tweet-a-watt/
 
-Update the firmware and configure all the Zigbee transmitter chips: http://www.ladyada.net/make/tweetawatt/config.html
+Update the firmware and configure all the Zigbee transmitter chips: https://learn.adafruit.com/tweet-a-watt/
 
-Modify the "Kill A Watt" hardware and install the transmitter chip in each: http://www.ladyada.net/make/tweetawatt/solder.html
+Modify the "Kill A Watt" hardware and install the transmitter chip in each: https://learn.adafruit.com/tweet-a-watt/
 
 Finally, monitor and chart power usage of these devices with this .NET desktop application. You can try the code available here. Perhaps you can improve and expand this code.
 
